@@ -34,7 +34,7 @@ label {
 .input:focus ~ label, .input:valid ~ label {
  top: -20px;
  font-size: 14px;
- color: #fffc00;
+ color: #9146ff;
 }
 
 .bar {
