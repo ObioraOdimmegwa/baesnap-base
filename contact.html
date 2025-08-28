@@ -274,27 +274,27 @@
             <div style="width: 100%; margin-right: 50px;">
 
                 <div class="group">
-                    <input required="" type="text" class="input">
+                    <input required="" type="text" class="input" id="fullName">
                     <span class="highlight"></span>
                     <span class="bar"></span>
                     <label>Name</label>
                 </div>
 
                 <div class="group" style="margin-top: 50px;">
-                    <input required="" type="text" class="input">
+                    <input required="" type="text" class="input" id="email">
                     <span class="highlight"></span>
                     <span class="bar"></span>
                     <label>Email</label>
                 </div>
 
                 <div class="group" style="margin-top: 50px;">
-                    <input required="" type="text" class="input">
+                    <input required="" type="text" class="input" id="message">
                     <span class="highlight"></span>
                     <span class="bar"></span>
                     <label>Message</label>
                 </div>
 
-                <button style="margin-top: 80px; width: 100%;" class="btn-white"><span>Submit </span></button>
+                <button style="margin-top: 80px; width: 100%;" class="btn-white" id="sendBtn"><span>Submit </span></button>
 
             </div>
 
@@ -358,29 +358,31 @@
             <div style="width: 100%; ">
 
                 <div class="group">
-                    <input required type="text" class="input">
+                    <input required type="text" class="input" id="fullName2">
                     <span class="highlight"></span>
                     <span class="bar"></span>
                     <label>Name</label>
                 </div>
 
                 <div class="group" style="margin-top: 50px;">
-                    <input required type="text" class="input">
+                    <input required type="text" class="input" id="email2">
                     <span class="highlight"></span>
                     <span class="bar"></span>
                     <label>Email</label>
                 </div>
 
                 <div class="group" style="margin-top: 50px;">
-                    <input required type="text" class="input">
+                    <input required type="text" class="input" id="message2">
                     <span class="highlight"></span>
                     <span class="bar"></span>
                     <label>Message</label>
                 </div>
 
-                <button style="margin-top: 80px; width: 100%;" class="btn-white"><span>Submit </span></button>
+                <button style="margin-top: 80px; width: 100%;" class="btn-white" id="sendBtn2"><span>Submit </span></button>
 
             </div>
+
+
 
             <div style="width: 100%; margin-top: 80px; ">
 
@@ -564,6 +566,8 @@
     <a aria-hidden="true" class="c-link c-link--outbound c-link--sacrificial">.</a>
     <script type="module"  src="./js/app.js"></script>
     <script type="text/javascript" src="./js/utils/isIE11.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="./js/contact.js"></script>
     <script type="text/javascript">
         (function() {
             var lang = document.getElementsByTagName('html')[0].getAttribute("lang");
